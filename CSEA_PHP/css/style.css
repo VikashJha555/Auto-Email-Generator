@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body{
+  /**background-image: url(../images/back5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  **/
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+
+ }
+ #particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+ #particles-js{
+
+   background-color: grey;
+ }
+#logo-container{
+  margin-top: 5px;
+  margin-left: -78px;
+}
+#title2{
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+#title3{
+  /*margin-left: 10px;
+  */
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+#title4{
+  margin-left: 10px;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+#txtMessage{
+  height: 45px;
+    margin-top: 15px;
+}
+#btnReg{
+  display: flex;
+   justify-content: center;
+  width: 180px;
+  padding: 1px;
+  border-radius: 20px;
+  outline: 0px;
+  background-color: #2ecc71;
+  border: 0px;
+  border-radius: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  opacity: 1.2;
+  font-weight: bolder;
+}
+.input-field label {
+     color: #000;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #000;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
